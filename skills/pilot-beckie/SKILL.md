@@ -4,7 +4,7 @@ description: Turns an idea the user dictates (an app, a website, a bot, or a fea
 argument-hint: "[full|semi|interview|manual] [strict|deep] <что нужно собрать своими словами либо путь к brief.md>"
 disable-model-invocation: true
 metadata:
-  version: "3.0.0"
+  version: "2.0.0"
 ---
 
 # Pilot by Beckie: orchestrator
