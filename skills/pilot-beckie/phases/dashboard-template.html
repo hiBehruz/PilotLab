@@ -78,13 +78,14 @@ code,.code{letter-spacing:0;font-weight:500;font-family:var(--face-code)}
 .lbl{color:var(--mut);font-weight:600;font-size:var(--t-14);background:var(--inset);border-radius:var(--rad-seg);padding-inline:var(--u12);block-size:var(--u32);align-items:center;display:inline-flex}
 .since{color:var(--mut);font-size:var(--t-14)}
 .controls{justify-content:flex-end;align-items:center;flex-wrap:wrap;gap:var(--u8);display:flex}
-.iconbtn{transition:transform .15s;justify-content:center;align-items:center;display:inline-flex;color:var(--hero);background:var(--inset);border-radius:var(--rad-row);inline-size:56px;block-size:56px}
+.iconbtn{transition:transform .15s;justify-content:center;align-items:center;display:inline-flex;color:var(--num);background:var(--inset);border-radius:var(--rad-row);inline-size:56px;block-size:56px}
 .iconbtn .ico{inline-size:var(--u20);block-size:var(--u20)}
 .iconbtn:active{transform:scale(.96)}
 .iconbtn.turning .ico{animation:turn .8s linear infinite}
 @keyframes turn{100%{transform:rotate(1turn)}}
 .toggle{background:var(--inset);border-radius:var(--rad-row);padding:var(--u4);display:inline-flex}
-.toggle .ico{inline-size:var(--u20);block-size:var(--u20)}
+.toggle .ico{color:var(--quiet);inline-size:var(--u20);block-size:var(--u20)}
+.toggle>button[aria-pressed=true] .ico{color:var(--num)}
 .toggle>button{transition:color .2s,background-color .2s,box-shadow .2s;color:var(--mut);font-weight:600;font-size:var(--t-16);border-radius:var(--rad-seg);padding-inline:var(--u16);min-inline-size:56px;block-size:48px;justify-content:center;align-items:center;display:inline-flex}
 .toggle>button:hover{color:var(--tx)}
 .toggle>button[aria-pressed=true],.filters>button[aria-pressed=true]{color:var(--tx);box-shadow:var(--sh);background:var(--card)}
@@ -238,6 +239,7 @@ code,.code{letter-spacing:0;font-weight:500;font-family:var(--face-code)}
 .gline-s{margin-block-start:var(--u2);color:var(--mut);font-weight:500;font-size:var(--t-14)}
 .gline-id{color:var(--quiet);font-weight:600;font-size:var(--t-14)}
 .tone-ok{color:var(--done)}
+.gline>.tone-ok,.evrow>.tone-ok,.evrow>.tone-quiet{color:var(--num)}
 .tone-ask{color:var(--ask)}
 .tone-bad{color:var(--bad)}
 .tone-rev{color:var(--rev)}
