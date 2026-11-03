@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "pilot-beckie": {
+      "source": "hiBehruz/PilotLab",
+      "sourceType": "github",
+      "skillPath": "skills/pilot-beckie/SKILL.md",
+      "computedHash": "dbe1a320d9acfc469b4a03fee29c73883d7248d214aec5fb5d411eb38fccf309"
+    }
+  }
+}
